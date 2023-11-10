@@ -9,7 +9,7 @@ Home page
 <!-- The source for this page is in `content/index.md`. -->
 <div class="flex-text">
     <figure>
-        <img src="assets/img/my_pic.jpg" class="my-pic" alt="Bild på mig">
+        <img src="assets/img/my_pic.jpg" class="pic" alt="Bild på mig">
     <figure>
 
     <div class="bread right">
