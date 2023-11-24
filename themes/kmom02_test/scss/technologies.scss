@@ -18,33 +18,13 @@
 }
 
 .tech-box {
-    border: 1px solid #ccc;
+    border: 2px solid $content-color;
+    box-shadow: 1px 1px 1px $main-color;
+    border-radius: 0.5rem;
     padding: 1rem;
     text-align: center;
 }
 
-// .css, .git {
-//     // grid-row-start: 2;
-//     grid-row: 2;
-// }
-
-// .html, .javascript {
-//     grid-row: 3;
-// }
-
-// .php {
-//     grid-row: 4;
-//     grid-column: span 3;
-// }
-
-// .python, .sqlite {
-//     grid-row: 5;
-// }
-
-// .css, .javascript, .sqlite {
-//     grid-column: span 2;
-// }
-///test 
 
 .css, .git {
     grid-column: span 1;
@@ -109,7 +89,7 @@
 }
 
 :is(.tech-menu, .tech-box) a{
-    transition: 0.7s;
+    transition: ease-in-out .7s;
 }
 
 :is(.tech-menu, .tech-box) a:hover {
