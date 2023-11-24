@@ -15,7 +15,7 @@ Home page
     <div class="bread right">
         <p class="info">
             Hej mitt namn är Anton Gummesson och detta är min portfolio sida för design kursen!
-            Jag är född 2004 och studerar till webbprogrammerare på bth på distans.
+            Jag är född 2004 och studerar till webbprogrammerare på BTH på distans.
         <p>
     </div>
 <div>
