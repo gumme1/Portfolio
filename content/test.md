@@ -5,7 +5,7 @@ Description: This is our test site
 
 Test
 ===================
-<div class="boxesBox">
+<!-- <div class="boxesBox">
 <div class="first-box">test<div>
 
 <div class="second-box">test<div>
@@ -25,4 +25,25 @@ Hör nu på, goävanner, så ska jag för er berätta vad vår Emil gjorde en da
 
 <p class="worst-ever">
 Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen satt där stenhårt fast uti mor sins soppskål, ty hans öron var för stora, så det blev att fara till doktorn det med hast. Hujedamej, sånt barn han var, tror inte också ni, att den som blott en soppskål har vill ej ha gossar i?
-</p>
+</p> -->
+
+![movement.jpg](%assets_url%/img/movement.jpg?w=700)
+![movement.png](%assets_url%/img/movement.png?w=700&q=1&f=edgedetect)
+
+<br>
+
+<picture>
+    <source media="(min-width: 668px)" srcset="%base_url%/image/movement.jpg?w=1000&f=colorize,100,0,0,0">
+    <!-- <img src="%base_url%/image/kmom05/train1.jpg?w=667" alt="train1"> -->
+    <img src="%base_url%/image/movement.jpg?w=200&h=300&crop-to-fit&area=0,25,0,0" alt="train1">
+</picture>
+<picture>
+    <source media="(min-width: 668px)" srcset="%base_url%/image/movement.jpg?w=1000&f=negate">
+    <!-- <img src="%base_url%/image/kmom05/train1.jpg?w=667" alt="train1"> -->
+    <img src="%base_url%/image/movement.jpg?w=200&h=300&crop-to-fit&area=0,25,0,0" alt="train1">
+</picture>
+<picture>
+    <source media="(min-width: 668px)" srcset="%base_url%/image/movement.jpg?w=1000&f=edgedetect&f0=mean_removal">
+    <!-- <img src="%base_url%/image/kmom05/train1.jpg?w=667" alt="train1"> -->
+    <img src="%base_url%/image/movement.jpg?w=200&h=300&crop-to-fit&area=0,25,0,0" alt="train1">
+</picture>
