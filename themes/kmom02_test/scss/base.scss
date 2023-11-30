@@ -160,8 +160,10 @@ li a:hover {
     box-shadow: 1px 1px $header-color;
 
     img {
-        width: 60%;
-        aspect-ratio: 1.9/1;
+        // height: 15rem;
+        // width: 60%;
+        width: 30vw;
+        aspect-ratio: 1.9/1 auto !important;
         margin: 1em;
         border-radius: 0.5rem;
     }

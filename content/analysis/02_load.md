@@ -74,15 +74,18 @@ Resultat
 </table>
 
 <div class="load-pic-container">
-    <img src="../assets/img/kmom05/tradera.png"> <p><b>Tradera:</b> Tradera hade en av de sämsta resultaten på mobilenheter och hade inte en särskilt bra laddningstid heller, för att tradera ska bättra sig rekommenderas det att de använder bilder i rätt storlek, byter till modernare bild format som webp för bättre komprimering samt att minska JavaScripten som inte används. </p>
+    <img src="../assets/img/kmom05/tradera.png">
+    <p><b>Tradera:</b> Tradera hade en av de sämsta resultaten på mobilenheter och hade inte en särskilt bra laddningstid heller, för att tradera ska bättra sig rekommenderas det att de använder bilder i rätt storlek, byter till modernare bild format som webp för bättre komprimering samt att minska JavaScripten som inte används. </p>
 </div>
 
 <div class="load-pic-container">
-    <img src="../assets/img/kmom05/blocket.png"> <p><b>Blocket:</b> Blocket, även om de inte hade jätte bra resultat heller på varken desktop eller mobil så var deras laddningstider oerhört mycket bättre än resterande. Förbättringar här gäller med att reducera JavaScripten som ej används, men även att minska påverkan som tredjepartskod har.</p>
+    <img src="../assets/img/kmom05/blocket.png">
+    <p><b>Blocket:</b> Blocket, även om de inte hade jätte bra resultat heller på varken desktop eller mobil så var deras laddningstider oerhört mycket bättre än resterande. Förbättringar här gäller med att reducera JavaScripten som ej används, men även att minska påverkan som tredjepartskod har.</p>
 </div>
 
 <div class="load-pic-container">
-    <img src="../assets/img/kmom05/secondhand.png"> <p><b>Secondhand:</b> Secondhand hade faktiskt bättre resultat än resterande på desktop enligt pagespeed, detta visades dock inte någon annanstans då laddningstiderna var enorma. Utveckling här skulle med vara att använda bilder i rätt storlek och format </p>
+    <img src="../assets/img/kmom05/secondhand.png">
+    <p><b>Secondhand:</b> Secondhand hade faktiskt bättre resultat än resterande på desktop enligt pagespeed, detta visades dock inte någon annanstans då laddningstiderna var enorma. Utveckling här skulle med vara att använda bilder i rätt storlek och format </p>
 </div>
 
 
