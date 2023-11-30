@@ -1,0 +1,37 @@
+@media screen and (max-width: 1400px) {
+    .site-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .landing-page{
+        grid-template-columns: 1;
+        grid-row: auto;
+        margin: 0 auto;
+    }
+
+    .tech-box{
+        grid-column: span 3;
+    }
+
+    .tech-menu {
+        display: none;
+    }
+
+    .tech-content {
+        width: 100%;
+    }
+
+    .nav {
+        ul {
+            flex-wrap: wrap;
+            flex-basis: auto;
+        }
+    }
+}

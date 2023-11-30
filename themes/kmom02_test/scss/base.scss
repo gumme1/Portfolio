@@ -14,18 +14,25 @@ body{
     flex-direction: column;
 }
 
+img, embed, object, video {
+    max-width: 100%;
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
-    max-width: 100vw;
+    // max-width: 100vw;
+    max-width: 100%;
 }
 
 .site-header  {
     img {
         margin-left: -1rem;
         // max-width: 100%;
+        max-width: 500px;
         width: 15rem;
+        height: 15rem;
     }
 }
 
@@ -117,8 +124,9 @@ body{
         font-size: 1.5rem;
     }
 
-    .social {
-        color: #3f3;
+    .social a{
+        width: 48px;
+        height: 48px;
     }
 
     .social a:hover {
@@ -130,21 +138,31 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
-    .site-header{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .yt {
     display: flex;
 }
 
 .mini-list {
     margin: 1em 0 1em 1em;
+    color: $main-color;
 }
 
 li a:hover {
     filter: saturate(7);
+}
+
+.load-pic-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: $content-color;
+    margin: 1em 1em 1em 0;
+    box-shadow: 1px 1px $header-color;
+
+    img {
+        width: 60%;
+        aspect-ratio: 1.9/1;
+        margin: 1em;
+        border-radius: 0.5rem;
+    }
 }
