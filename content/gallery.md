@@ -70,5 +70,5 @@ Gallery
 <br>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/sWOUi0PVTXw" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/sWOUi0PVTXw" frameborder="0" allowfullscreen title="Video of Anton aus tirol"></iframe>
 </div>

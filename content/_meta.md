@@ -1,6 +1,6 @@
 ---
 Logo: image/logopro.png
-Tagline: My portfolio.
+Tagline: Portfolio of angm23
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/gumme1/Portfolio
