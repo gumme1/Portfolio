@@ -18,21 +18,39 @@ img, embed, object, video {
     max-width: 100%;
 }
 
+a:hover {
+    color: #f0f
+}
+
+.header {
+    background-color: $contrast-color;
+    border-bottom: 4px solid #8A3D99;
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 2rem;
     // max-width: 100vw;
     max-width: 100%;
 }
 
 .site-header  {
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
+
     img {
         margin-left: -1rem;
         // max-width: 100%;
         max-width: 500px;
         width: 15rem;
         height: 15rem;
+    }
+
+    p {
+        rotate: 10deg;
+        margin-bottom: 0.6rem;
+        text-decoration: line-through 3px solid #d400ff;
     }
 }
 
@@ -50,6 +68,12 @@ img, embed, object, video {
         font-size: 2rem;
         text-decoration: none;
         color: $main-color;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        background-color: #d400ff;
+        background: linear-gradient(to bottom, #f0f, #d400ff);
+        border: 1px solid #8A3D99;
     }
 
     ul li{
@@ -66,15 +90,23 @@ img, embed, object, video {
     }
     
     li a:hover{
-        border-bottom: 3px solid $main-color;
-        text-shadow: .5px .5px $main-color;
+        //     // border-bottom: 3px solid $main-color;
+        //     // text-shadow: .5px .5px $main-color;
+        //     // rotate: 30deg;
+        background-color: $accent-color;
+        transition: ease-in 0.2s;
+        padding: 0.7rem;
     }
 }
 
 .main {
+    // background-color: $content-color;
+    background: linear-gradient(to bottom, $content-color, $accent-color);
+    border-right: 3px solid #8A3D99;
+    border-left: 3px solid #8A3D99;
     width: 50vw;
     margin: 0 auto;
-    margin-bottom: 1rem;
+    padding: 1rem;
     flex: 1 0 auto;
     // font-size: 2.5rem;
     overflow-wrap: break-word;
@@ -147,7 +179,7 @@ img, embed, object, video {
     color: $main-color;
 }
 
-li a:hover {
+.main li a:hover {
     filter: saturate(7);
 }
 
@@ -167,4 +199,8 @@ li a:hover {
         margin: 1em;
         border-radius: 0.5rem;
     }
+}
+
+.bigger-bread {
+    font-size: 1.25em;
 }

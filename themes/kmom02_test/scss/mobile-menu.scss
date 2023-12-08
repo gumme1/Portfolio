@@ -2,6 +2,10 @@
     .site-header{
         display: flex;
         flex-direction: column;
+
+        p {
+            display: none;
+        }
     }
 
     .main {
